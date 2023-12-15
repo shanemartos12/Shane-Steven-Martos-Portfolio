@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our 5th Monthsary</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fce3de; /* Sweet background color */
+            text-align: center;
+            padding: 20px;
+            position: relative; /* Ensure position:relative for absolute positioning */
+        }
+    
+        /* Function to create heart shapes */
+        .heart {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: #ff6f61; /* Sweet heart color */
+            transform: rotate(-45deg);
+        }
+    
+        /* Small hearts */
+        .heart::before,
+        .heart::after {
+            content: '';
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: #ff6f61; /* Sweet heart color */
+            border-radius: 50%;
+        }
+    
+        .heart::before {
+            top: -5px;
+            left: 0;
+        }
+    
+        .heart::after {
+            top: 0;
+            left: -5px;
+        }
+    
+        /* Big hearts */
+        .big-heart {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-color: #ff6f61; /* Sweet heart color */
+            border-radius: 50%;
+            transform: rotate(-45deg);
+        }
+    
+        .big-heart::before,
+        .big-heart::after {
+            content: '';
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background-color: #ff6f61; /* Sweet heart color */
+            border-radius: 50%;
+        }
+    
+        .big-heart::before {
+            top: -15px;
+            left: 0;
+        }
+    
+        .big-heart::after {
+            top: 0;
+            left: -15px;
+        }
+    
+        h1 {
+            color: #ff6f61; /* Sweet text color */
+        }
+    
+        p {
+            color: #333;
+        }
+    
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    
+        #video-container {
+            margin-top: 30px;
+        }
+    
+        video {
+            width: 100%;
+            max-width: 800px; /* Adjust the maximum width of the video */
+            margin-top: 20px;
+        }
+    
+        .month-section {
+            margin-top: 30px;
+        }
+    </style>
+    
+</head>
+<body>
+  
+
+
+    <h1>Happy 5th Monthsary, [Your Girlfriend's Name]!</h1>
+
+    <p>Dear [Your Girlfriend's Name],</p>
+    
+    <p>On this special day, I want to express my love and appreciation for the wonderful moments we've shared in the past 5 months. To celebrate our journey, I've created this little program filled with memories and sweet surprises just for you.</p>
+
+    <!-- 1st Month Section -->
+    <div class="month-section">
+        <h2>1st Month</h2>
+        <img src="" alt="1st Month Photo">
+    </div>
+
+    <!-- 2nd Month Section -->
+    <div class="month-section">
+        <h2>2nd Month</h2>
+        <img src="path/to/your/2nd_month_photo.jpg" alt="2nd Month Photo">
+    </div>
+
+    <div class="month-section">
+        <h2>3rd Month</h2>
+        <img src="path/to/your/2nd_month_photo.jpg" alt="2nd Month Photo">
+    </div>
+
+    <div class="month-section">
+        <h2>4th Month</h2>
+        <img src="path/to/your/2nd_month_photo.jpg" alt="2nd Month Photo">
+    </div>
+
+    <div class="month-section">
+        <h2>5th Month</h2>  
+
+    <!-- Repeat for the remaining months -->
+
+    <div id="video-container">
+        <!-- Insert your video here -->
+        <video controls>
+            <source src="path/to/your/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Add more content and customization as needed -->
+
+    <p>Thank you for being the amazing person you are. I look forward to creating many more beautiful memories together.</p>
+
+    <p>With all my love,</p>
+    <p>[Your Name]</p>
+
+</body>
+</html>
